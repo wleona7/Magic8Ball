@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Magic 8 Ball
+    </ion-title>
+    <ion-buttons end>
+      <button (click)="gotoAbout()">
+        <ion-icon name="person"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card (click)="giveAnswer()">
+
+    <ion-card-header>
+      Ask. Tap. Wisdom.
+    </ion-card-header>
+
+    <ion-card-content>
+      <img id='img8ball' src="assets/imgs/magic8ball.gif"
+        [ngClass]="cssClass" alt="magic 8 ball">
+    </ion-card-content>
+
+  </ion-card>
+</ion-content>

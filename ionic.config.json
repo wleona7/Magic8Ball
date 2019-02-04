@@ -1,0 +1,7 @@
+{
+  "name": "magic8Ball",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
